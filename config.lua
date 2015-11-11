@@ -50,7 +50,7 @@ return {
 	template = {
 
 		-- Template to render into
-		template = "template.html",
+		template = "template_bootstrap.html",
 		
 		-- Template for each item
 		template_item = "template_item.html",
@@ -62,7 +62,7 @@ return {
 		date_format = "%c",
 		
 		-- File to save the rendered site to
-		outfile = "out.html"
+		outfile = "index.html"
 
 	}
 }
