@@ -1,5 +1,5 @@
 # slurger
-## slurger = statuc + lua + burger
+## slurger = static + lua + burger
 
 
 This is a static HTML generator for burgerking coupons!
