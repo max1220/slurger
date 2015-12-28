@@ -158,7 +158,7 @@ for i,coupon in ipairs(coupons) do
 			print("","",c .. "...")
 			local outfile = io.open(filepath, "w")
 			if outfile then
-				outfile:write(download(download_url))
+				outfile:write((download(download_url)))
 				outfile:close()
 			else
 				error("Can't open file " .. tostring(filepath) .. " for writing. Make sure the directory exists!")
