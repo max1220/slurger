@@ -72,18 +72,32 @@ table.sort(extra, sort_f)
 			.coupon {
 				border-top: 1px solid #ccc;
 				padding-top: 10px;
+				text-align:center;
 			}
+
 			.coupon h3 {
-				float: left;
-				margin: 0;
 				font-size: 3em;
 				font-weight: normal;
-				text-align:center;
-				line-height:296px;
+
 			}
-			.coupon img {
-				float: right;
+
+			@media only screen and (max-width: 500px) {
+				.coupon img {
+					width: 100%;
+				}
 			}
+			@media only screen and (min-width: 500px) {
+				.coupon h3 {
+					float: left;
+					margin: 0;
+					line-height:296px;
+				}
+				.coupon img {
+					float: right;
+					height: 286px;
+				}
+			}
+
 		</style>
 	</head>
 	<body>
