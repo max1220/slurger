@@ -1,6 +1,6 @@
 #!/usr/bin/env lua
 local config = require("config")
-local json = require("dkjson/dkjson")
+local json = require("dkjson")
 local template = require("template")
 local ok, template_data = pcall(require, config.template)
 math.randomseed(os.time())
